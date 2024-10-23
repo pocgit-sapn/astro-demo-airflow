@@ -5,3 +5,4 @@ services:
   scheduler:
     volumes:
       - ./dbt:/usr/local/airflow/dbt
+      - ./dags:/usr/local/airflow/dags 
