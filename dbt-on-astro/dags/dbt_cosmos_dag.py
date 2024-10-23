@@ -26,3 +26,4 @@ dbt_cosmos_dag = DbtDag(
     concurrency=1, # only allow a single task execution at a time, prevents parallel DuckDB calls
     is_paused_upon_creation=False, # start running the DAG as soon as its created
 )
+
